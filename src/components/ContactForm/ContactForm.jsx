@@ -17,12 +17,12 @@ export class ContactForm extends Component {
     e.preventDefault();
     const form = e.currentTarget;
     this.props.handleSubmit(this.state);
-    // form.reset();
+    form.reset();
     this.setState({
     name: '',
     number: '',
   })
-  }
+  } 
 
   render() {
     const { name, number } = this.state;
