@@ -15,7 +15,7 @@ export class App extends Component {
   filter: '',
   name: '',
   number: ''
-  };
+  }; 
 
   handleChange = e => {
     const { name, value } = e.target;
